@@ -11,13 +11,13 @@
 	<b>Last Name</b><br>
 	<input type="text" name="Lsat Name" id="lastname" pattern="[a-z]{1,}" placeholder="Letters Only" required /><br /><br />
 	<b>Cell Phone:</b><br>
-	<input type="text" name="cellphone" id="cellphone" pattern="^[0-9]{10}$" placeholder="000-000-0000" required /><br /><br />
+	<input type="tel" name="cellphone" id="cellphone"pattern="[0-9]{10,}" placeholder="Numbers Only " /><br /><br />
 	<b>Zip code:</b><br>
-	<input type="text" name="Zipcode" id="Zipcode" pattern="^[0-9]{5}$" placeholder="Numbers Only" /><br /><br />
+	<input type="number" name="Zipcode" id="Zipcode" /><br /><br />
 	<b>Email:</b><br>
-	<input type="text" name="email" id="email" pattern="(^\w+([\.]?\w+)\u0040\w+([\.]?\w+)*(\.\w{2,3})+$)" required /><br /><br />
+	<input type="email" name="email" id="email"pattern="(^\w+([\.-]?\w+)\u0040\w+([\.-]?\w+)*(\.\w{2,3})+$)" required /><br /><br />
 	<b>Password:</b><br>
-	<input type="text" name="password" id="password" required /><br /><br /><br /><br />
-	<input type="submit" value="Submit " />
+	<input type="password" name="password" id="password" required /><br /><br /><br /><br />
+	<input type="submit" value="Register " />
 </form>
 
